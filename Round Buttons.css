@@ -9,14 +9,10 @@
 }
 
 .titleBar-1it3bQ .winButtonMinMax-3RsPUg:not(:first-child):not(:last-child){
-    --background-modifier-hover: #febe04;
-    --background-modifier-active: #cb9703;
     border-radius: 0 !important;
 }
 
 .titleBar-1it3bQ .winButtonMinMax-3RsPUg:last-child {
-    --background-modifier-hover: #17cd3a;
-    --background-modifier-active: #119a2b;
     border-top-left-radius: 8px !important;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
