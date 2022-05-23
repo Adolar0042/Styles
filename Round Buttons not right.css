@@ -1,0 +1,10 @@
+.winButton-3UMjdg {
+    border-radius: 0 !important;
+    top: -3 !important;
+}
+.titleBar-1it3bQ .winButtonMinMax-3RsPUg:last-child {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 8px !important;
+  }
