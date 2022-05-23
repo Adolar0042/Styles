@@ -6,9 +6,12 @@
 */
 
 @import url("https://adolar0042.github.io/Styles/Edgy Buttons.css");
+@import url("https://adolar0042.github.io/Styles/Edgy Buttons not right.css");
 @import url("https://adolar0042.github.io/Styles/Round Buttons.css");
+@import url("https://adolar0042.github.io/Styles/Round Buttons not right.css");
 @import url("https://adolar0042.github.io/Styles/Custom Colors.css");
 @import url("https://adolar0042.github.io/Styles/Large Buttons.css");
+@import url("https://adolar0042.github.io/Styles/Large Titlebar.css");
 
 /* Revert SVG path data */
 .wordmarkWindows-2dq6rw path {
