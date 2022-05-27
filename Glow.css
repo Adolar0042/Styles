@@ -1,14 +1,12 @@
 .winButton-3UMjdg:hover {
-    box-shadow: 0px 0px 30px 10px var(--button-destructive);
+    animation: backgroundalt 150s ease;
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:not(:first-child):not(:last-child):hover{
-    box-shadow: 0px 0px 30px 10px var(--background-modifier-hover);
     animation: background 150s ease;
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:last-child:hover {
-    box-shadow: 0px 0px 30px 10px var(--background-modifier-hover);
     animation: background 150s ease;
 }
 
