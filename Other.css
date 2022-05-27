@@ -19,3 +19,8 @@
     background-color: transparent !important;
     backdrop-filter: blur(40px) !important;
 }
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+    background: var(--background-secondary-alt);
+    margin-left: 8px;
+}
