@@ -1,11 +1,20 @@
 .winButton-3UMjdg:hover {
-    box-shadow: 0px 0px 30px 25px var(--button-destructive);
+    box-shadow: 0px 0px 30px 10px var(--button-destructive);
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:not(:first-child):not(:last-child):hover{
-    box-shadow: 0px 0px 30px 25px var(--background-modifier-hover);
+    box-shadow: 0px 0px 30px 10px var(--background-modifier-hover);
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:last-child:hover {
-    box-shadow: 0px 0px 30px 25px var(--background-modifier-hover);
+    box-shadow: 0px 0px 30px 10px var(--background-modifier-hover);
+}
+
+@keyframes background {
+    from {
+        box-shadow: 0px 0px 30px 10px alpha(var(--background-modifier-hover, 0));
+    }
+    to {
+        box-shadow: 0px 0px 30px 10px alpha(var(--background-modifier-hover), 0.5);
+    }
 }
