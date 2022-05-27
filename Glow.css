@@ -1,16 +1,16 @@
 .winButton-3UMjdg:hover {
-    animation: backgroundalt 150s ease;
+    animation: _backgroundalt 150s ease;
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:not(:first-child):not(:last-child):hover{
-    animation: background 150s ease;
+    animation: _background 150s ease;
 }
 
 .titleBar-1it3bQ:hover .winButtonMinMax-3RsPUg:last-child:hover {
-    animation: background 150s ease;
+    animation: _background 150s ease;
 }
 
-@keyframes background {
+@keyframes _background {
     from {
         box-shadow: 0px 0px 30px 10px alpha(var(--background-modifier-hover, 0));
     }
@@ -19,7 +19,7 @@
     }
 }
 
-@keyframes backgroundalt {
+@keyframes _backgroundalt {
     from {
         box-shadow: 0px 0px 30px 10px alpha(var(--button-destructive), 0);
     }
