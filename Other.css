@@ -21,6 +21,6 @@
 }
 
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
-    background: var(--background-secondary-alt);
-    margin-left: 8px;
+    background: var(--background-secondary-alt) !important;
+    margin-left: 8px !important;
 }
