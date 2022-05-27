@@ -23,15 +23,3 @@
 .ChannelDms-channelmembers-wrap, .ChannelDms-channelmembers-header {
     background: transparent !important;
 }
-
-.ChannelDms-channelpopout-popout .ChannelDms-channelpopout-header div {
-    background: none !important;
-    background-color: transparent !important;
-    backdrop-filter: blur(40px) !important;
-}
-
-.chatContent-3KubbW div,form {
-    background: none !important;
-    background-color: transparent !important;
-    backdrop-filter: blur(40px) !important;
-}
