@@ -1,0 +1,92 @@
+:root {
+
+    /* || Accent Colors - Adding calc(var(saturation-factor)*X%) is not required. */
+    --essence-accent-brand-saturated: 256, calc(var(--saturation-factor, 1) * 60%), 87%;
+    --essence-accent-brand: 256, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-brand-alt: 256, calc(var(--saturation-factor, 1) * 47%), 20%;
+    --essence-accent-red: 360, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-orange: 18, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-yellow: 43, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-green: 140, calc(var(--saturation-factor, 1) * 73%), 47%;
+    --essence-accent-green-alt: 140, calc(var(--saturation-factor, 1) * 56%), 19%;
+    --essence-accent-blue: 209, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-purple: 281, calc(var(--saturation-factor, 1) * 86%), 58%;
+    --essence-accent-grey: 245, 11%, 52%;
+
+        /* || Window Buttons */
+    --winbutton-max-background: hsl(var(--essence-accent-green));
+    --winbutton-min-background: hsl(var(--essence-accent-yellow));
+    --winbutton-close-background: hsl(var(--essence-accent-red));
+
+
+      /* || Button Colors */
+    --button-brand-background: hsl(var(--essence-accent-brand));
+    --button-brand-background-hover: hsl(256, calc(var(--saturation-factor, 1) * 74%), 48%);
+    --button-brand-background-active: hsl(256, calc(var(--saturation-factor, 1) * 74%), 40%);
+    --button-brand-background-disabled: hsl(256, calc(var(--saturation-factor, 1) * 82%), 56%);
+    
+    --button-red-background: hsl(var(--essence-accent-red));
+    --button-red-background-hover: hsl(360, calc(var(--saturation-factor, 1) * 72%), 46%);
+    --button-red-background-active: hsl(360, calc(var(--saturation-factor, 1) * 72%), 38%);
+    --button-red-background-disabled: hsl(360, calc(var(--saturation-factor, 1) * 74%), 55%);
+
+    --button-green-background: hsl(140, calc(var(--saturation-factor, 1) * 64%), 42%);
+    --button-green-background-hover: hsl(140, calc(var(--saturation-factor, 1) * 49%), 34%);
+    --button-green-background-active: hsl(140, calc(var(--saturation-factor, 1) * 49%), 26%);
+    --button-green-background-disabled: hsl(140, calc(var(--saturation-factor, 1) * 57%), 41%);
+
+    --button-grey-background: hsl(var(--essence-accent-grey));
+    --button-grey-background-hover: #918EA6;
+    --button-grey-background-active: #ACA9BE;
+    --button-grey-background-disabled: #89869D;
+
+}
+
+.typeWindows-2-g3UY .winButton-3UMjdg {
+  top: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  border-radius: 5px;
+  background-color: var(--background-primary);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0;
+  transition: all 220ms ease;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(2) {
+  order: 2;
+  background-image: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.16998 10.83L10.83 5.17" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.83 10.83L5.16998 5.17" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(2):hover {
+  background-color: var(--winbutton-close-background);
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(3) {
+  order: 3;
+  background-image: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.83331 6.75V5.70833C3.83331 4.67083 4.67081 3.83333 5.70831 3.83333H6.74998" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.25 3.83333H10.2917C11.3292 3.83333 12.1667 4.67083 12.1667 5.70833V6.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12.1667 9.66667V10.2917C12.1667 11.3292 11.3292 12.1667 10.2917 12.1667H9.66669" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.74998 12.1667H5.70831C4.67081 12.1667 3.83331 11.3292 3.83331 10.2917V9.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(3):hover {
+  background-color: var(--winbutton-max-background);
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(4) {
+  order: 4;
+  background-image: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 8H12" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:nth-child(4):hover {
+  background-color: var(--winbutton-min-background);
+}
+.typeWindows-2-g3UY .winButton-3UMjdg:hover {
+  background-size: 100%;
+}
+.typeWindows-2-g3UY .winButton-3UMjdg svg {
+  display: none;
+}
+.app-focused .winButton-3UMjdg:nth-child(2) {
+  background-color: var(--winbutton-close-background);
+}
+.app-focused .winButton-3UMjdg:nth-child(3) {
+  background-color: var(--winbutton-max-background);
+}
+.app-focused .winButton-3UMjdg:nth-child(4) {
+  background-color: var(--winbutton-min-background);
+}
