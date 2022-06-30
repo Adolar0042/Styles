@@ -13,9 +13,9 @@
     --essence-accent-purple: 281, calc(var(--saturation-factor, 1) * 86%), 58%;
     --essence-accent-grey: 245, 11%, 52%;
 
-        /* || Window Buttons */
-    --winbutton-max-background: hsl(var(--essence-accent-green));
-    --winbutton-min-background: hsl(var(--essence-accent-yellow));
+    /* || Window Buttons */
+    --winbutton-min-background: hsl(var(--essence-accent-green));
+    --winbutton-max-background: hsl(var(--essence-accent-yellow));
     --winbutton-close-background: hsl(var(--essence-accent-red));
 
 
